@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Cards</title>
+    <link rel="stylesheet" href="ass2.css">
+</head>
+<body>
+    <div class="recipes-container">
+<!-- Chocolate Cake -->
+        <div class="recipe-card">
+            <h1>Chocolate Cake</h1>
+            <img src="cake.webp" alt="Chocolate Cake" class="recipe-image">
+            <div class="details">
+                <p><strong>Preparation Time:</strong> 45 minutes</p>
+                <p><strong>Serving Size:</strong> 8 servings</p>
+            </div>
+            <button id="toggle-ingredients-1">Show Ingredients</button>
+            <ul id="ingredients-list-1" class="hidden">
+                <li>2 cups all-purpose flour</li>
+                <li>2 cups sugar</li>
+                <li>3/4 cup cocoa powder</li>
+                <li>1 1/2 tsp baking powder</li>
+                <li>1 1/2 tsp baking soda</li>
+                <li>1 tsp salt</li>
+            </ul>
+            <button id="toggle-steps-1">Show Steps</button>
+            <ol id="steps-list-1" class="hidden">
+                <li>Preheat the oven to 350°F (175°C).</li>
+                <li>Mix dry ingredients.</li>
+                <li>Add wet ingredients and mix well.</li>
+                <li>Pour batter into pans and bake for 30-35 minutes.</li>
+            </ol>
+            <button id="start-cooking-1">Start Cooking</button>
+            <div class="progress-bar-container">
+                <div id="progress-bar-1" class="progress-bar"></div>
+            </div>
+        </div>
+<!-- chocolate cupcake -->
+        <div class="recipe-card">
+            <h1>Chocolate Cupcakes</h1>
+            <img src="cupcake.webp" alt="Chocolate Cupcakes" class="recipe-image">
+            <div class="details">
+                <p><strong>Preparation Time:</strong> 30 minutes</p>
+                <p><strong>Serving Size:</strong> 12 cupcakes</p>
+            </div>
+            <button id="toggle-ingredients-2">Show Ingredients</button>
+            <ul id="ingredients-list-2" class="hidden">
+                <li>1 1/2 cups all-purpose flour</li>
+                <li>1 1/2 tsp baking powder</li>
+                <li>1/4 tsp salt</li>
+                <li>1/2 cup butter</li>
+                <li>1 cup sugar</li>
+                <li>2 eggs</li>
+            </ul>
+            <button id="toggle-steps-2">Show Steps</button>
+            <ol id="steps-list-2" class="hidden">
+                <li>Preheat oven to 350°F (175°C).</li>
+                <li>Mix dry ingredients in a bowl.</li>
+                <li>Cream butter and sugar, then add eggs.</li>
+                <li>Combine with dry ingredients and bake for 20 minutes.</li>
+            </ol>
+            <button id="start-cooking-2">Start Cooking</button>
+            <div class="progress-bar-container">
+                <div id="progress-bar-2" class="progress-bar"></div>
+            </div>
+        </div>
+<!-- chocolate smoothie -->
+        <div class="recipe-card">
+            <h1>Chocolate Smoothie</h1>
+            <img src="Chocosmoothie.webp" alt="Chocolate Smoothie" class="recipe-image">
+            <div class="details">
+                <p><strong>Preparation Time:</strong> 10 minutes</p>
+                <p><strong>Serving Size:</strong> 2 servings</p>
+            </div>
+            <button id="toggle-ingredients-3">Show Ingredients</button>
+            <ul id="ingredients-list-3" class="hidden">
+                <li>1 cup Chocolate</li>
+                <li>1/2 cup yogurt</li>
+                <li>1/2 cup milk</li>
+                <li>1 tbsp honey</li>
+                <li>Ice cubes</li>
+            </ul>
+            <button id="toggle-steps-3">Show Steps</button>
+            <ol id="steps-list-3" class="hidden">
+                <li>Combine all ingredients in a blender.</li>
+                <li>Blend until smooth.</li>
+                <li>Pour into glasses and serve chilled.</li>
+            </ol>
+            <button id="start-cooking-3">Start Cooking</button>
+            <div class="progress-bar-container">
+                <div id="progress-bar-3" class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="ass2.js"></script>
+</body>
+</html>
